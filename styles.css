@@ -1,0 +1,53 @@
+body {
+    font-family: 'Hind', sans-serif;
+    background-color: #13CAC4;
+}
+
+/* Login form styles */
+.login {
+    margin: 10% auto;
+    width: 40%;
+    background-color: #FFFFFFFF;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #aaa;
+}
+
+/* Heading styles */
+h1 {
+    font-family: Garamond;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Input field styles */
+input[type="number"],
+input[type="radio"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Submit button styles */
+.submit {
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 330%;
+    right: 47%;
+}
+
+.submit:hover {
+    background-color: #CF0A0A;
+}
